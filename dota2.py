@@ -134,6 +134,7 @@ axe.hit(centaur_neutral_creep)
 print('\nAxe hit harpy')
 axe.hit(harpy)
 
+# Harpy hitting Axe 3 times and then use her spell
 # 1st action
 print('\n{} have {}hp'.format(axe.name ,axe.health))
 
@@ -147,7 +148,7 @@ harpy.hit(axe)
 print('\n{} has {}hp'.format(axe.name ,axe.health))
 
 # 3rd action
-print('\nHarpy 3rd time ударяет акса\n')
+print('\nHarpy 3rd time hitting  Axe\n')
 harpy.hit(axe)
 print('\n{} has {}hp'.format(axe.name ,axe.health))
 
